@@ -14,5 +14,6 @@ public class Practice3_6 {
             }
         }
         System.out.println("ゲームを終了します");
+        
     }
 }
