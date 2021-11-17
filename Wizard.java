@@ -32,7 +32,7 @@ public class Wizard {
     if (name == null || name.length() < 3) {
       throw new IllegalArgumentException("魔法使いに設定しようとしている名前にエラーがあります");
     }
-    this.name = name;
+    //this.name = name;
   }
   public Wand getWand(() {return this.wand;}
   public void SetWand(Wand wand) {
