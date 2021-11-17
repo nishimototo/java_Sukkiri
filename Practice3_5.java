@@ -1,8 +1,8 @@
 public class Practice3_5 {
-  public static void main(String[] args) {
-    System.out.print("[メニュー]1:検索2:登録3:削除4:変更>");
-    int selected = new java.util.Scanner(System.in).nextInt();
-    switch(selected) {
+    public static void main(String[] args) {
+        System.out.print("[メニュー]1:検索2:登録3:削除4:変更>");
+        int selected = new java.util.Scanner(System.in).nextInt();
+        switch (selected) {
         case 1:
             System.out.println("検索します");
             break;
@@ -14,7 +14,7 @@ public class Practice3_5 {
             break;
         case 4:
             System.out.println("変更します");
-            break;    
+            break;
+        }
     }
-}
 }
